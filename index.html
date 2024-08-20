@@ -285,9 +285,9 @@
           by injected humour.</p>
       </div>
 
-      <div class="lg:grid lg:grid-cols-2 mt-12 mb-24">
+      <div class="lg:grid lg:grid-cols-2 gap-5 mt-12 mb-24">
         <!-- icoon -->
-        <div class="grid grid-cols-2 grid-row-2">
+        <div class="grid grid-cols-2 grid-row-2 p-5">
 
           <!-- icon 1 -->
           <div class="bg-background border border-2  p-5 text-center space-y-2"><i
@@ -320,13 +320,31 @@
             <p>Mon-Fri: 9AM to 5PM</p>
             <p>Sunday: 9AM to 1 PM</p>
           </div>
-
-
         </div>
-        <!-- Input -->
-        <div></div>
-      </div>
 
+        <!-- Input -->
+        <div class="space-y-2 p-5">
+          <label class="input input-bordered flex items-center gap-2">
+            Name:
+            <input type="text" class="grow" placeholder="Your Name" />
+          </label>
+          <label class="input input-bordered flex items-center gap-2">
+            Email:
+            <input type="text" class="grow" placeholder="Your Email" />
+          </label>
+          <label class="input input-bordered flex items-center gap-2">
+            Subject:
+            <input type="text" class="grow" placeholder="Subject" />
+          </label>
+          <label class="input input-bordered flex items-center gap-2 h-24">
+            Massage:
+            <input type="text" class="grow" placeholder="Your Massage" />
+          </label>
+          <button class="btn bg-color text-white lg:px-52 lg:py-5">Send Massage</button>
+        </div>
+
+
+      </div>
     </section>
   </main>
 
